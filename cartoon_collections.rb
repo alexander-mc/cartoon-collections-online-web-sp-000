@@ -19,5 +19,11 @@ def find_the_cheese(array)
   end
 end
 
+def find_the_cheese2(array)
+    array.find do |ingredient|
+      ingredient == "cheddar"
+    end
+end
+
 ingredients = ["garlic", "rosemary", "cheddar"]
-find_the_cheese(ingredients)
+find_the_cheese2(ingredients)
