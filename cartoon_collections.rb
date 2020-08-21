@@ -27,6 +27,3 @@ def find_the_cheese2(array)
     end
   end
 end
-
-ingredients = ["garlic", "rosemary", "cheddar"]
-puts find_the_cheese2(ingredients)
