@@ -20,10 +20,13 @@ def find_the_cheese(array)
 end
 
 def find_the_cheese2(array)
-    array.find do |ingredient|
-      ingredient == "cheddar"
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find do |ingredient|
+    cheese_types.find do |cheese|
+      ingredient == cheese
     end
+  end
 end
 
 ingredients = ["garlic", "rosemary", "cheese"]
-puts find_the_cheese2(ingredients).class
+puts find_the_cheese2(ingredients)
