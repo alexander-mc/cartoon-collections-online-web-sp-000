@@ -17,5 +17,5 @@ def find_the_cheese(array)
   end
 end
 
-ingredients = ["garlic", "rosemary", "bread"]
+ingredients = ["garlic", "rosemary", "cheddar"]
 find_the_cheese(ingredients)
