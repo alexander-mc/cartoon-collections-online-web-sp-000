@@ -26,4 +26,4 @@ def find_the_cheese2(array)
 end
 
 ingredients = ["garlic", "rosemary", "cheddar"]
-find_the_cheese2(ingredients)
+puts find_the_cheese2(ingredients)
