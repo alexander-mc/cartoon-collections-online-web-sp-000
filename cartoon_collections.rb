@@ -16,3 +16,6 @@ def find_the_cheese(array)
     array.find{|ingredient| ingredient == cheese}
   end
 end
+
+ingredients = ["garlic", "rosemary", "bread"]
+find_the_cheese(ingredients)
