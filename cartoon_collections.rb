@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
 end
 
 array = ["a","b"]
-puts roll_call_dwarves(array)
+roll_call_dwarves(array)
 
 def summon_captain_planet# code an argument here
   # Your code here
